@@ -13,7 +13,7 @@
       }),
       watch: {
           totalComplete (to) {
-              if (to > 1 && to === this.totalUploading) {
+              if (to > 0 && to === this.totalUploading) {
                     this.$emit('completed', true);
               }
           }
