@@ -297,6 +297,8 @@ var _default = {
           });
           filePromise.fail(function (err) {
             _this.$emit('error', err);
+
+            _this.totalComplete++;
           });
         }
       });

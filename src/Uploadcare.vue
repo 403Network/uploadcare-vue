@@ -191,6 +191,7 @@
             })
             filePromise.fail((err) => {
               this.$emit('error', err)
+                this.totalComplete++;
             })
           }
         })
