@@ -1,0 +1,58 @@
+{
+  "_from": "uploadcare-vue@^1.0.0",
+  "_id": "uploadcare-vue@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-SpoNTsCSKpMXVQyF5y+phk62nhkR2WZ1ZUdnk6aiNif6woVVIodqJK806BMuVHOmqGnx6u0A3mpD4Phoe5UuSg==",
+  "_location": "/uploadcare-vue",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "uploadcare-vue@^1.0.0",
+    "name": "uploadcare-vue",
+    "escapedName": "uploadcare-vue",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/uploadcare-vue/-/uploadcare-vue-1.0.0.tgz",
+  "_shasum": "f0b914994741e3a9599ca17bf3e7950b058e51f2",
+  "_spec": "uploadcare-vue@^1.0.0",
+  "_where": "/Users/marcus/Projects/403network/nova-uploadcare-field",
+  "author": {
+    "name": "PatrickJS",
+    "email": "patrick@tipe.io"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "uploadcare-widget": "^3.3.0"
+  },
+  "deprecated": false,
+  "description": "Uploadcare dialog for Vue apps by @TipeIO",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.31",
+    "@babel/preset-env": "^7.0.0-beta.31",
+    "babel-loader": "^8.0.0-beta.0",
+    "css-loader": "^0.28.7",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.19.0",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.0.10",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^3.8.1"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "uploadcare-vue",
+  "scripts": {
+    "build": "webpack",
+    "prebuild": "rm -rf dist",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
